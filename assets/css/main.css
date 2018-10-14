@@ -1,0 +1,152 @@
+html{
+
+}
+*,body{
+	font-family: "sans-serif";
+}
+
+li,ul{
+	list-style-type: none;
+}
+
+ul.navbar-nav{
+	font-size: 11px;
+}
+
+ul.navbar-nav.right-aligned
+{
+	right: 5px;
+    position: absolute;
+}
+
+.table-heading > .view-more{
+	position: absolute;
+	right: 2px;
+	/* color: #000; */
+}
+
+.table-holder > .grid-container > li{
+	border-width: thin;
+	border-style: solid;
+	border-color: #d6d6d6;
+	box-shadow: 0px 0px 0px 1px #e6e3e3;
+	background: #F4F6F6;
+	/* height: 35px; */
+}
+
+.table-holder > .table-heading{margin-bottom: 0;margin-top: 10px;font-weight: 900;font-family: "sans-serif";}
+
+.table-holder > .grid-container > .grid-row .row-num{
+	top: 6px;
+	background: #fff;
+	position: relative;
+	border-radius: 50%;
+	/* width: 24px; */
+	text-align: center;
+	border-width: thin;
+	border-style: solid;
+	border-color: #d6d6d6;
+	font-weight: 600;
+	padding: 3px 6px 4px 6px;
+}
+
+.table-holder > .grid-container > .grid-row .play-button{
+	position: relative;
+	top: 7px;
+	/* width: 50%; */
+	padding: 1px 12px 1px 5px;
+	border-style: solid;
+	border-width: thin;
+	border-color: #e2dede;
+	background: #F8F9F9;
+	font-weight: 600;
+	box-shadow: 1px 1px 1px 1px #EBEDEF;
+	border-radius: 5px;
+}
+.table-holder > .grid-container > .grid-row .info-para{
+	position: relative;
+	top: 6px;
+	font-size: 12px;
+}
+
+.left-margin-10{
+	margin-left: 10px;
+}
+
+.inline-block{
+	display: inline-block;
+	padding-right: 0;
+}
+
+.padding-left-0{
+	padding-left: 0;
+}
+
+.padding-right-0{
+	padding-right: 0;
+} 
+.border-bottom{
+	border-bottom: 1px solid #e2dede;
+}
+.top-33{
+	position: relative;
+	top: 4px;
+}
+.font-weight-700{
+	font-weight: 700;
+	position: relative;
+	/* top: 2px; */
+}
+
+.height-150{
+	height: 107px;
+}
+
+.adjust-top{
+	position: relative;
+	top: -62px;
+}
+
+.image > img{
+	width: 65px;
+	height: 87px;
+}
+
+.font-12{
+	font-size: 12px;
+}
+
+.border-left-width{
+	border-left-width: 2px !important;
+}
+
+.border-color-sea-green{
+	border-left-color: #07f56f !important;
+}
+
+.border-color-dark-green{
+	border-left-color: #73C6B6 !important;
+}
+
+.border-color-orange{
+	border-left-color: #F5B041 !important;
+}
+
+.right-border{
+	border-right: thin;
+	border-style: solid;
+	border-color: #e2dede;
+	border-left: none;
+	border-bottom: none;
+	border-top: none;
+	box-shadow: 0px 0px 1px 0px;
+}
+
+.footer {
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0rem;
+  background-color: #efefef;
+  text-align: center;
+}
